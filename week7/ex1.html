@@ -1,27 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Primary Selectors</title>
-    <style>
+    <meta charset="utf-8">
+    <title>Web Design and Development</title>
+    <link rel="stylesheet" type="text/css" href="css/LeftMenu.css" />
     
-        .select-by-tag span {
-            background: DodgerBlue;
-            color: #ffffff;
+    <style>
+        #header {
+            background: url('images/header.jpg');
+            height: 181px;
+            width: 900px;
+            margin-left: 20%;
+            margin-right: 25%;
         }
-        </style>
+
+        #logo {
+            padding: 20px 0 0 50px;
+        }
+
+        #menu_top {
+            margin-top: 55px;
+            margin-left: 30px;
+            background: #ffffff;
+            height: 40px;
+            opacity: 0.6;
+            border-radius: 10px 0px 0px 10px;
+        }
+    </style>
 </head>
 <body>
 
-    <h2>1. Primary Selectors: Select by Tag</h2>
-    <div class="example-box select-by-tag">
-        <span>Here's a span with some text.</span>
-        <p>Here's a p with some text.</p>
-        <span>Here's a span with more text.</span>
+    <div id="header">
+        <div id="logo">
+            </div>
+        <div id="menu_top">
+            </div>
     </div>
 
-    
+    <div class="menu">
+        <div>MENU</div>
+        <ul>
+            <li>home</li>
+            <li>categories</li>
+            <li>contact</li>
+            <li>about us</li>
+        </ul>
+    </div>
 
 </body>
 </html>
+
+
